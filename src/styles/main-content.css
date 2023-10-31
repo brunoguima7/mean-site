@@ -36,6 +36,11 @@
     margin-top: 100px;
 }
 
+#lotes {
+    color: rgb(79, 60, 255);
+}
+
+
 @media (max-width: 450px) {
     .sub-listas {
         font-size: 20px;

@@ -21,7 +21,25 @@ export default function MainText() {
             <p className="text">
                 Nossa festa contará dessa vez com Open Bar, Jogos com bebida, Piscina e muito mais, então não fique de fora 
                 e adquira já seu ingresso aqui mesmo pelo nosso novíssimo site. 
-            </p> <br/>
+            </p> 
+
+            <h2 id="space-top" className="title">LOTES</h2>
+            
+            <p id="lotes" className="formal">
+                3º LOTE - R$35,00 (até 05/11)
+            </p>
+
+            <p id="lotes" className="formal">
+                4º LOTE - R$45,00 (ATÉ 10/11)
+            </p>
+
+            <p id="lotes" className="formal">
+                11/11 - R$50,00
+            </p>
+
+            <p className="formal">
+                VENDAS ENCERRAM 11/11 AS 17H (Ou antes, se der lotação máxima).
+            </p> <br />
             
             <Button/> <br/>
            
@@ -48,6 +66,8 @@ export default function MainText() {
                     <li>Jurupinga e Vodka (Para os jogos)</li>
                     <li>Sucão de Limão</li>
                     <li>Sucão de Maracujá</li>
+                    <li>Sucão de Uva</li>
+                    <li>Sucão Especial</li>
                 </ul>
             </div>
             

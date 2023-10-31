@@ -6,14 +6,14 @@
 }
 
 #footer-text {
-    font-family: "Climate Crisis", "calibri";
+    font-family: "Climate Crisis", "Calibri";
     font-size: 14px;
     color: rgb(255, 255, 255);
     margin-left: 5px;
 }
 
 #contact-text {
-    font-family: calibri;
+    font-family: "Roboto", "Calibri";
     font-size: 18px;
     color: rgb(255, 255, 255);
     display: inline;
@@ -22,8 +22,8 @@
 }
 
 #date {
-    font-family: calibri;
-    font-size: 20px;
+    font-family: "Roboto", "Calibri";
+    font-size: 18px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     margin-left: 40px;
