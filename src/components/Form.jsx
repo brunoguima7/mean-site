@@ -92,7 +92,7 @@ export default function Form() {
 
     return (
         <div>
-            <h1 className="title" id="first-title">Compra de Ingressos</h1>
+            <h1 className="title" id="first-title">COMPRA DE INGRESSOS</h1>
             <p id="description" className="text">
                 A compra de ingressos pelo site funcionará de forma semelhante a compra via whatsapp, porém de forma automática. Você informará
                 seus dados e efetuará o pagamento (Apenas via pix). Assim que o pagamento for confirmado será enviado um e-mail à você
@@ -200,7 +200,7 @@ export default function Form() {
                 </form>
             </div>
             
-            <h1 className="title">Importante</h1>
+            <h1 className="title">IMPORTANTE</h1>
             <p className="sub">O prazo para recebimento do ingresso é de 1 hora.</p>
             <p className="sub">Ingressos adquiridos entre 00:00 e 07:00 serão enviados a partir das 07:00.</p>
             <p className="sub">Caso não receba o ingresso dentro do prazo, entre em contato conosco.</p>

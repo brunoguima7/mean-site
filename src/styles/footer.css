@@ -6,7 +6,7 @@
 }
 
 #footer-text {
-    font-family: "mean", "calibri";
+    font-family: "Climate Crisis", "calibri";
     font-size: 14px;
     color: rgb(255, 255, 255);
     margin-left: 5px;
@@ -32,6 +32,8 @@
 @media (max-width: 450px) {
     .footer {
         margin-top: 50px;
+        padding-top: 20px;
+        padding-bottom: 25px;
     }
     
     #footer-text {
@@ -40,11 +42,11 @@
     
     #contact-text {
         font-size: 12px;
+        margin-right: 5px;
     }
     
     #date {
         font-size: 14px;
-        margin-left: 20px;
+        margin-left: 5px;
     }
-    
 }

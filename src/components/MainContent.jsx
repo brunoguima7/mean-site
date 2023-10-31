@@ -28,7 +28,7 @@ export default function MainText() {
             <h2 id="space-top" className="title">MEAN GIRLS PARTY OPEN BAR</h2>
 
             <div id="div-listas">
-                <h3 className="sub-listas">Destilados:</h3>
+                <h3 className="sub-listas">DESTILADOS</h3>
                 <ul>
                     <li>Gin</li>
                     <li>Vodka</li>
@@ -36,14 +36,14 @@ export default function MainText() {
                     <li>Chanceler</li>
                 </ul>
 
-                <h3 className="sub-listas">Sem Álcool:</h3>
+                <h3 className="sub-listas">SEM ÁLCOOL</h3>
                 <ul>
                     <li>Energético Tradicional</li>
                     <li>Energético de sabores</li>
                     <li>Água</li>
                 </ul>
 
-                <h3 className="sub-listas">Especiais:</h3>
+                <h3 className="sub-listas">ESPECIAIS</h3>
                 <ul>
                     <li>Jurupinga e Vodka (Para os jogos)</li>
                     <li>Sucão de Limão</li>
@@ -63,7 +63,7 @@ export default function MainText() {
                 <img src="casa1.jpeg" alt="" className="house-img" /><img src="casa2.jpeg" alt="" className="house-img" /><img src="casa3.jpeg" alt="" className="house-img" />
             </div>
 
-            <h2 id="last-title" className="gran-title" >EAI, VAI FICAR DE FORA ? ADQUIRA JÁ SEU INGRESSO !!!</h2>
+            <h2 id="last-title" className="gran-title" >EAI, VAI FICAR DE FORA? ADQUIRA JÁ SEU INGRESSO!!!</h2>
             <Button/>
         </div>
     )

@@ -15,7 +15,7 @@
 .pay-text {
     margin-left: 50px;
     margin-right: 50px;
-    font-family: "Candara", "calibri";
+    font-family: "Catamaran", "calibri";
     font-size: 20px;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@
 #error-message {
     color: white;
     text-align: center;
-    font-family: "Calibri", "calibri";
+    font-family: "Catamaran", "calibri";
     font-size: 20px;
     font-weight: 100;
     padding-left: 3px;
@@ -149,5 +149,76 @@
 
     #div-container {
         margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    #phone {
+        width: 130px;
+    }
+    
+    #cpf {
+        width: 130px;
+    }
+
+    .pay-text {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    
+    #error-message {
+        font-size: 14px;
+    }
+    
+    #span-div {
+        margin-bottom: 30px;
+    }
+    
+    #form-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #inputs-div {
+        display: block;
+        margin-bottom: 30px;
+    }
+     
+    #column1 {
+        margin-left: 12px;
+    }
+    
+    #column2 {
+        margin-left: 12px;
+    }
+    
+    .qr-elements {
+        margin-top: 30px;
+    }
+    
+    #description {
+        margin-bottom: 40px;
+    }
+    
+    #submit-button {
+        margin-bottom: 10px;
+    }
+
+    #first-title {
+        margin-top: 75px;
+    }
+
+    #div-container {
+        margin-bottom: 40px;
+    }
+
+    .obs {
+        color: rgba(255, 255, 255, 0.650);
+        font-weight: 100;
+        font-family: calibri;
+        font-size: 14px;
     }
 }
