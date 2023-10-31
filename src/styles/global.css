@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "mean";
+    src: url(TAN-NIMBUS.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "realocate";
+    src: url(Reallocated.ttf) format("truetype");
+}
+
+
+.text {
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: "Candara";
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(230, 232, 255);
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-family: "realocate";
+    font-size: 36px;
+    color: aliceblue;
+}
+
+.gran-title {
+    text-align: center;
+    font-family: "realocate";
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.sub {
+    text-align: center;
+    color: rgb(79, 60, 255);
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 24px;
+    margin: 15px;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+#background {
+    background-color: rgb(0, 0, 6);
+}
+
+.space {
+    margin-bottom: 35px;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    margin-left: 30%;
+    color: rgb(255, 255, 255);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    font-size: 20px;
+    font-family: "Candara";
+    color: white; 
+    font-weight: bold;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(55, 0, 255);
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    padding: 6px;
+    font-family: "Calibri";
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 450px) {
+
+    
+    .text {
+        margin-right: 40px;
+        margin-left: 40px;
+        font-size: 14px;
+    }
+    
+    .title {
+        font-size: 26px;
+    }
+    
+    .gran-title {
+        font-size: 24px;
+    }
+    
+    .sub {
+        font-size: 18px;
+    }
+
+    .space {
+        margin-bottom: 20px;
+    }
+
+    body {
+        margin: 0;
+    }
+    
+    li {
+        margin-left: 25%;
+    }
+    
+    label {
+        font-size: 14px;
+    }
+    
+    input {
+        width: 230px;
+        height: 20px;
+        font-size: 14px;
+    }
+    
+    button {
+        font-size: 16px;
+    }
+}
+

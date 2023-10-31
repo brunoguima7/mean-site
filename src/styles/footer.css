@@ -1,0 +1,50 @@
+.footer {
+    margin-top: 100px;
+    background-color: rgb(5, 2, 19);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer-text {
+    font-family: "mean";
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+#contact-text {
+    font-family: calibri;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    display: inline;
+    float: right;
+    margin-right: 40px;
+}
+
+#date {
+    font-family: calibri;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+@media (max-width: 450px) {
+    .footer {
+        margin-top: 50px;
+    }
+    
+    #footer-text {
+        font-size: 10px;
+    }
+    
+    #contact-text {
+        font-size: 12px;
+    }
+    
+    #date {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    
+}

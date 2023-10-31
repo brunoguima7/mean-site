@@ -1,0 +1,68 @@
+#mean {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    font-family: "mean";
+}
+
+#image {
+    background-image: url(meanfundo.jpeg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+#ig-logo {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
+
+#wpp-logo {
+    margin-left: 30px;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
+
+.house-img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 30px;
+}
+
+#house-div {
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+@media (max-width: 450px) {
+    #mean {
+        font-size: 24px;
+    }
+    
+    #ig-logo {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    
+    #wpp-logo {
+        margin-left: 20px;
+        max-width: 30px;
+        max-height: 30px;
+    }
+    
+    .house-img {
+        max-width: 130px;
+        max-height: 130px;
+        margin-left: 10px;
+    }
+    
+    #house-div {
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+    
+}

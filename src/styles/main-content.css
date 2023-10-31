@@ -1,0 +1,63 @@
+.sub-listas {
+    color: rgb(255, 255, 255);
+    font-family: "realocate";
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 30%;
+}
+
+#bebidas {
+    margin-left: 40%;
+}
+
+#div-listas {
+    background: rgb(49,0,110);
+    background: radial-gradient(circle, rgb(34, 0, 112) 1%, rgba(1,0,4,1) 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-color: aliceblue;
+    border-style: solid;
+    font-family: "Candara";
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(230, 232, 255);
+}
+
+#last-title {
+    margin-bottom: 50px;
+ }
+ 
+ #space-top {
+    margin-top: 100px;
+}
+
+@media (max-width: 450px) {
+    .sub-listas {
+        font-size: 20px;
+        margin-left: 30%;
+    }
+    
+    #bebidas {
+        margin-left: 30%;
+    }
+    
+    #div-listas {
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 12px;
+    }
+    
+    #last-title {
+        margin-bottom: 50px;
+     }
+     
+     #space-top {
+        margin-top: 50px;
+    }
+}

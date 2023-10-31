@@ -1,0 +1,11 @@
+#button-link {
+    color: rgb(255, 255, 255);
+    font-family: "Calibri";
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.qr-buttons {
+    background-color: white;
+    color: rgb(55, 0, 255);
+}

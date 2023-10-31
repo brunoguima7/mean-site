@@ -1,0 +1,153 @@
+#fone {
+    width: 130px;
+}
+
+#cpf {
+    width: 140px;
+}
+
+.obs {
+    color: rgba(255, 255, 255, 0.650);
+    font-weight: 100;
+    font-family: calibri;
+}
+
+.pay-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Candara";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#error-message {
+    color: white;
+    text-align: center;
+    font-family: "Calibri";
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+}
+
+#span-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#form-container {
+    background: rgb(53,0,152);
+    background: radial-gradient(circle, rgba(53,0,152,1) 20%, rgba(12,0,78,1) 98%);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#inputs-div {
+    display: flex;
+    margin-bottom: 50px;
+}
+ 
+#column1 {
+    margin-left: 30%;
+}
+
+#column2 {
+    margin-left: 5%;
+}
+
+.form-div {
+    margin-bottom: 100px
+}
+
+.qr-elements {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#description {
+    margin-bottom: 70px;
+}
+
+#submit-button {
+    margin: 50px;
+}
+
+#first-title {
+    margin-top: 150px;
+}
+
+#div-container {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 450px) {
+    #phone {
+        width: 130px;
+    }
+    
+    #cpf {
+        width: 130px;
+    }
+
+    .pay-text {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    
+    #error-message {
+        font-size: 14px;
+    }
+    
+    #span-div {
+        margin-bottom: 30px;
+    }
+    
+    #form-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #inputs-div {
+        display: block;
+        margin-bottom: 30px;
+    }
+     
+    #column1 {
+        margin-left: 15px;
+    }
+    
+    #column2 {
+        margin-left: 15px;
+    }
+    
+    .qr-elements {
+        margin-top: 30px;
+    }
+    
+    #description {
+        margin-bottom: 40px;
+    }
+    
+    #submit-button {
+        margin-bottom: 10px;
+    }
+
+    #first-title {
+        margin-top: 75px;
+    }
+
+    #div-container {
+        margin-bottom: 40px;
+    }
+}

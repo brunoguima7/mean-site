@@ -1,0 +1,63 @@
+#link1 {
+    color: white;
+    font-family: "Candara";
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline;
+    float: right;
+    margin-top: 25px;
+    margin-right: 70px;
+}
+
+#link2 {
+    color: white;
+    font-family: "Candara";
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline;
+    float: right;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+#logo {
+    max-width: 55px;
+    max-height: 55px;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(2,0,25);
+    background: linear-gradient(90deg, rgba(2,0,25,1) 0%, rgba(10,0,68,1) 65%, rgba(50,0,143,1) 100%);
+}
+
+@media (max-width: 450px) {
+    #link1 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+
+    #link2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-right: 70px;
+    }
+
+    #logo {
+        max-width: 40px;
+        max-height: 40px;
+        margin-left: 10px;
+    }
+}
