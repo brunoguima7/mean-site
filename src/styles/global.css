@@ -1,11 +1,11 @@
 @font-face {
     font-family: "mean";
-    src: url(TAN-NIMBUS.otf) format("opentype");
+    src: url("TAN-NIMBUS.otf") format("opentype");
 }
 
 @font-face {
     font-family: "realocate";
-    src: url(Reallocated.ttf) format("truetype");
+    src: url("Reallocated.ttf") format("truetype");
 }
 
 

@@ -6,7 +6,7 @@
 }
 
 #image {
-    background-image: url(meanfundo.jpeg);
+    background-image: url("meanfundo.jpeg");
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 40px;
