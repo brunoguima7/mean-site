@@ -10,13 +10,13 @@ export default function MainText() {
             <h3 className="sub" >Vocês pediram, e nós voltamos!!</h3>
 
             <p className="text">
-                É com muito prazer que anuncio pra vocês a nossa última festa do ano, com uma proposta totalmente
+                É com muito prazer que anunciamos pra vocês a nossa última festa do ano, com uma proposta totalmente
                 diferente daquilo que estamos acostumadas... 
             </p>
             <p className="text">
                 Em novembro, dia 11, iremos realizar a última do ano, pra fechar com chave de ouro! Concluir esse ano com essa
-                festa é graças a todos vocês que foram em todas as nossas edições e nos apoiaram a crescer e melhorar,
-                novembro que nos aguarde, porque essa festa vai ser FODA!!! 
+                festa é graças a todos vocês que foram em todas as nossas edições e nos apoiaram a crescer e melhorar.
+                Novembro que nos aguarde.
             </p>
             <p className="text">
                 Nossa festa contará dessa vez com Open Bar, Jogos com bebida, Piscina e muito mais, então não fique de fora 
