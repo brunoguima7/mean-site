@@ -30,7 +30,7 @@ export default function MainText() {
             </p>
 
             <p id="lotes" className="formal">
-                4º LOTE - R$45,00 (ATÉ 10/11)
+                4º LOTE - R$45,00 (até 10/11)
             </p>
 
             <p id="lotes" className="formal">
