@@ -1,7 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Home from './routes/Home.jsx'
-import Tickets from './routes/Tickets.jsx'
+import React from "react" 
+import ReactDOM from "react-dom/client" 
+import Home from "./pages/Home.jsx" 
+import Tickets from "./pages/Tickets.jsx"
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 
 const router = createBrowserRouter([

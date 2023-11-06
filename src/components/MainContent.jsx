@@ -33,10 +33,6 @@ export default function MainText() {
                 4º LOTE - R$45,00 (até 10/11)
             </p>
 
-            <p id="lotes" className="formal">
-                11/11 - R$50,00
-            </p>
-
             <p className="formal">
                 VENDAS ENCERRAM 11/11 AS 17H (Ou antes, se der lotação máxima).
             </p> <br />
