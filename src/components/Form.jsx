@@ -40,6 +40,8 @@ export default function Form() {
 
         const today = date.getDate()
 
+        const hours = date.getHours()
+
         console.log(today)
 
         if (today == 31 | today <= 5) {
@@ -48,9 +50,13 @@ export default function Form() {
         } else if (today >= 6 && today <= 10) {
             setQrImage("qrcode45.jpeg")
             setQrText("00020126330014BR.GOV.BCB.PIX011151363191861520400005303986540545.005802BR5925ISABELLE DE CAMARGO GUIMA6009SAO PAULO62070503***6304F7B9")
-        } else if (today == 11 ) {
+        } else if (today >= 11 && hours <= 17) {
             setQrImage("qrcode50.jpeg")
             setQrText("00020126330014BR.GOV.BCB.PIX011151363191861520400005303986540550.005802BR5925ISABELLE DE CAMARGO GUIMA6009SAO PAULO62070503***63048226")
+        }else if (today >= 11 && hours >= 18) {
+            const err = new Error("As vendas infelizmente se encerraram. :(")
+            err.input = "salesOut"
+            throw err
         }
     }
 
